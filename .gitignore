@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Exported app builds (e.g. "DiFi 2026-06-21 17-38-46/")
+DiFi 20*/
+*.app
+*.ipa
+*.xcarchive
+
+# Local tool settings
+.claude/

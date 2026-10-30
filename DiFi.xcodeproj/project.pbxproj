@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001000000000000001A /* DiFiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000001A /* DiFiApp.swift */; };
+		AA000003000000000000001A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000001A /* ContentView.swift */; };
+		AA000005000000000000001A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006000000000000001A /* Models.swift */; };
+		AA000007000000000000001A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008000000000000001A /* DashboardView.swift */; };
+		AA000009000000000000001A /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000A000000000000001A /* IncomeView.swift */; };
+		AA00000B000000000000001A /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000C000000000000001A /* ExpensesView.swift */; };
+		AA00000D000000000000001A /* DebtsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000E000000000000001A /* DebtsView.swift */; };
+		AA00000F000000000000001A /* CryptoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000010000000000000001A /* CryptoView.swift */; };
+		FF000003000000000000001A /* CryptoTradeHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000004000000000000001A /* CryptoTradeHistoryView.swift */; };
+		EE000002000000000000001A /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE000001000000000000001A /* KeychainHelper.swift */; };
+		EE000004000000000000001A /* KrakenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE000003000000000000001A /* KrakenService.swift */; };
+		EE000006000000000000001A /* EthWalletService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE000007000000000000001A /* EthWalletService.swift */; };
+		AA000011000000000000001A /* TaxVaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000012000000000000001A /* TaxVaultView.swift */; };
+		AA000013000000000000001A /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000014000000000000001A /* ReportsView.swift */; };
+		AA000015000000000000001A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000016000000000000001A /* SettingsView.swift */; };
+		AA000017000000000000001A /* SummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000018000000000000001A /* SummaryCard.swift */; };
+		AA000019000000000000001A /* QuickAddSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001A000000000000001A /* QuickAddSheet.swift */; };
+		AA00001B000000000000001A /* MonthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00001C000000000000001A /* MonthPicker.swift */; };
+		FF000001000000000000001A /* CryptoLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF000002000000000000001A /* CryptoLogoView.swift */; };
+		AA00001D000000000000001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA00001E000000000000001A /* Assets.xcassets */; };
+		BBAA0001000000000000001A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAA0002000000000000001A /* Extensions.swift */; };
+		CC000001000000000000001A /* VatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000002000000000000001A /* VatView.swift */; };
+		DD000001000000000000001A /* AllocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD000002000000000000001A /* AllocationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA000002000000000000001A /* DiFiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiFiApp.swift; sourceTree = "<group>"; };
+		AA000004000000000000001A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000006000000000000001A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA000008000000000000001A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA00000A000000000000001A /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+		AA00000C000000000000001A /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		AA00000E000000000000001A /* DebtsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsView.swift; sourceTree = "<group>"; };
+		AA000010000000000000001A /* CryptoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoView.swift; sourceTree = "<group>"; };
+		FF000004000000000000001A /* CryptoTradeHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTradeHistoryView.swift; sourceTree = "<group>"; };
+		EE000001000000000000001A /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		EE000003000000000000001A /* KrakenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakenService.swift; sourceTree = "<group>"; };
+		EE000007000000000000001A /* EthWalletService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthWalletService.swift; sourceTree = "<group>"; };
+		AA000012000000000000001A /* TaxVaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxVaultView.swift; sourceTree = "<group>"; };
+		AA000014000000000000001A /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		AA000016000000000000001A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		AA000018000000000000001A /* SummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryCard.swift; sourceTree = "<group>"; };
+		AA00001A000000000000001A /* QuickAddSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAddSheet.swift; sourceTree = "<group>"; };
+		AA00001C000000000000001A /* MonthPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPicker.swift; sourceTree = "<group>"; };
+		FF000002000000000000001A /* CryptoLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoLogoView.swift; sourceTree = "<group>"; };
+		BBAA0002000000000000001A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CC000002000000000000001A /* VatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VatView.swift; sourceTree = "<group>"; };
+		DD000002000000000000001A /* AllocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllocationView.swift; sourceTree = "<group>"; };
+		AA00001E000000000000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00001F000000000000001A /* DiFi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiFi.entitlements; sourceTree = "<group>"; };
+		AA000020000000000000001A /* DiFi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiFi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA000021000000000000001A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA000022000000000000001A /* DiFi */ = {
+			isa = PBXGroup;
+			children = (
+				AA000002000000000000001A /* DiFiApp.swift */,
+				AA000004000000000000001A /* ContentView.swift */,
+				BBAA0002000000000000001A /* Extensions.swift */,
+				AA000023000000000000001A /* Models */,
+				AA000024000000000000001A /* Views */,
+				AA000025000000000000001A /* Components */,
+				EE000005000000000000001A /* Services */,
+				AA00001E000000000000001A /* Assets.xcassets */,
+				AA00001F000000000000001A /* DiFi.entitlements */,
+			);
+			path = DiFi;
+			sourceTree = "<group>";
+		};
+		AA000023000000000000001A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA000006000000000000001A /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA000024000000000000001A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA000026000000000000001A /* Dashboard */,
+				AA000027000000000000001A /* Income */,
+				AA000028000000000000001A /* Expenses */,
+				AA000029000000000000001A /* Debts */,
+				AA00002A000000000000001A /* Crypto */,
+				DD000003000000000000001A /* Allocation */,
+				AA00002B000000000000001A /* TaxVault */,
+				CC000003000000000000001A /* Vat */,
+				AA00002C000000000000001A /* Reports */,
+				AA00002D000000000000001A /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA000025000000000000001A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA000018000000000000001A /* SummaryCard.swift */,
+				AA00001A000000000000001A /* QuickAddSheet.swift */,
+				AA00001C000000000000001A /* MonthPicker.swift */,
+				FF000002000000000000001A /* CryptoLogoView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AA000026000000000000001A /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA000008000000000000001A /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AA000027000000000000001A /* Income */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000A000000000000001A /* IncomeView.swift */,
+			);
+			path = Income;
+			sourceTree = "<group>";
+		};
+		AA000028000000000000001A /* Expenses */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000C000000000000001A /* ExpensesView.swift */,
+			);
+			path = Expenses;
+			sourceTree = "<group>";
+		};
+		AA000029000000000000001A /* Debts */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000E000000000000001A /* DebtsView.swift */,
+			);
+			path = Debts;
+			sourceTree = "<group>";
+		};
+		AA00002A000000000000001A /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				AA000010000000000000001A /* CryptoView.swift */,
+				FF000004000000000000001A /* CryptoTradeHistoryView.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		DD000003000000000000001A /* Allocation */ = {
+			isa = PBXGroup;
+			children = (
+				DD000002000000000000001A /* AllocationView.swift */,
+			);
+			path = Allocation;
+			sourceTree = "<group>";
+		};
+		EE000005000000000000001A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EE000001000000000000001A /* KeychainHelper.swift */,
+				EE000003000000000000001A /* KrakenService.swift */,
+				EE000007000000000000001A /* EthWalletService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AA00002B000000000000001A /* TaxVault */ = {
+			isa = PBXGroup;
+			children = (
+				AA000012000000000000001A /* TaxVaultView.swift */,
+			);
+			path = TaxVault;
+			sourceTree = "<group>";
+		};
+		CC000003000000000000001A /* Vat */ = {
+			isa = PBXGroup;
+			children = (
+				CC000002000000000000001A /* VatView.swift */,
+			);
+			path = Vat;
+			sourceTree = "<group>";
+		};
+		AA00002C000000000000001A /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				AA000014000000000000001A /* ReportsView.swift */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		AA00002D000000000000001A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA000016000000000000001A /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AA00002E000000000000001A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA000020000000000000001A /* DiFi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA00002F000000000000001A = {
+			isa = PBXGroup;
+			children = (
+				AA000022000000000000001A /* DiFi */,
+				AA00002E000000000000001A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA000030000000000000001A /* DiFi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA000031000000000000001A /* Build configuration list for PBXNativeTarget "DiFi" */;
+			buildPhases = (
+				AA000032000000000000001A /* Sources */,
+				AA000021000000000000001A /* Frameworks */,
+				AA000033000000000000001A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiFi;
+			productName = DiFi;
+			productReference = AA000020000000000000001A /* DiFi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA000034000000000000001A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA000030000000000000001A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AA000035000000000000001A /* Build configuration list for PBXProject "DiFi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA00002F000000000000001A;
+			productRefGroup = AA00002E000000000000001A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA000030000000000000001A /* DiFi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA000033000000000000001A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA00001D000000000000001A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000032000000000000001A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA000001000000000000001A /* DiFiApp.swift in Sources */,
+				AA000003000000000000001A /* ContentView.swift in Sources */,
+				BBAA0001000000000000001A /* Extensions.swift in Sources */,
+				AA000005000000000000001A /* Models.swift in Sources */,
+				AA000007000000000000001A /* DashboardView.swift in Sources */,
+				AA000009000000000000001A /* IncomeView.swift in Sources */,
+				AA00000B000000000000001A /* ExpensesView.swift in Sources */,
+				AA00000D000000000000001A /* DebtsView.swift in Sources */,
+				AA00000F000000000000001A /* CryptoView.swift in Sources */,
+				FF000003000000000000001A /* CryptoTradeHistoryView.swift in Sources */,
+				DD000001000000000000001A /* AllocationView.swift in Sources */,
+				AA000011000000000000001A /* TaxVaultView.swift in Sources */,
+				CC000001000000000000001A /* VatView.swift in Sources */,
+				AA000013000000000000001A /* ReportsView.swift in Sources */,
+				AA000015000000000000001A /* SettingsView.swift in Sources */,
+				AA000017000000000000001A /* SummaryCard.swift in Sources */,
+				AA000019000000000000001A /* QuickAddSheet.swift in Sources */,
+				AA00001B000000000000001A /* MonthPicker.swift in Sources */,
+				FF000001000000000000001A /* CryptoLogoView.swift in Sources */,
+				EE000002000000000000001A /* KeychainHelper.swift in Sources */,
+				EE000004000000000000001A /* KrakenService.swift in Sources */,
+				EE000006000000000000001A /* EthWalletService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000036000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA000037000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA000038000000000000001A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DiFi/DiFi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JC42B8R3ER;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.difi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA000039000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DiFi/DiFi.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JC42B8R3ER;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.difi.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA000031000000000000001A /* Build configuration list for PBXNativeTarget "DiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000038000000000000001A /* Debug */,
+				AA000039000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA000035000000000000001A /* Build configuration list for PBXProject "DiFi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000036000000000000001A /* Debug */,
+				AA000037000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA000034000000000000001A /* Project object */;
+}
